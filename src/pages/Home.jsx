@@ -7,12 +7,7 @@ import CV from '../assets/Ibrahim-Ullah-Resume.pdf';
 import TypeWriter from 'typewriter-effect';
 
 const Home = () => {
-    const personalInfo = {
-        firstName: 'Ibrahim',
-        lastName: 'Ullah', 
-      }
-
-    const titles = ['Junior Software Developer', 'Frontend Engineer', 'JavaScript Developer', 'React Developer']
+    const titles = ['Software Developer', 'Frontend Engineer', 'Full Stack Engineer', 'JavaScript Developer', 'React Developer', 'Next.js Developer']
 
     const techStack = [
       {name: 'JavaScript', icon: 'https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png'},
@@ -37,7 +32,7 @@ const Home = () => {
     </div>
     <div className='flex-right'>
       <div className='txt-container'>
-        <h2>Hey there, my name is <span>{personalInfo.firstName + ' ' + personalInfo.lastName}</span></h2>
+        <h2>Hey there 👋, my name is <span>Ibrahim Ullah</span></h2>
         <h3>
             I am a{' '}
             <span>
@@ -48,11 +43,11 @@ const Home = () => {
                 }}
                 style={{ borderRight: '.15em solid black' }}
                 onInit={(typewriter) => {
-                  titles.forEach((title, index) => {
+                  titles.forEach((title, i) => {
                     typewriter.typeString(title)
-                      .pauseFor(2000)
+                      .pauseFor(500)
                       .deleteAll()
-                      .pauseFor(500);
+                      .pauseFor(400);
                   });
                   typewriter.start();
                 }}

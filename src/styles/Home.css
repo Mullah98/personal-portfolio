@@ -63,6 +63,7 @@
 }
 .txt-container span {
   color: red;
+  font-weight: 700;
 }
 
 .tech-stack {
