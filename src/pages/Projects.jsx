@@ -1,13 +1,10 @@
 import React from 'react';
 import '../styles/Projects.css';
-import backendProject from '../assets/backend-project.png';
-import frontendProject from '../assets/frontend-project.png';
 import travelogProject from '../assets/travelog-project.png';
 import portfolioProject from '../assets/portfolio.png';
 import carRentalProject from '../assets/car-rental.png';
 import myFootAppProject from '../assets/footy-app.png';
 import exhibitionProject from '../assets/exhibit-ease.png'
-import GitHubIcon from "@mui/icons-material/GitHub";
 
 const Projects = () => {
   const projects = [
@@ -18,7 +15,8 @@ const Projects = () => {
       techStack: [
         {name: 'React', icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png'},
         {name: 'Next.js', icon: 'https://static-00.iconduck.com/assets.00/nextjs-icon-1024x1024-5et230l7.png'},
-        {name: 'Tailwind CSS', icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2560px-Tailwind_CSS_Logo.svg.png'}
+        {name: 'Tailwind CSS', icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2560px-Tailwind_CSS_Logo.svg.png'},
+        {name: 'Shadcn/UI', icon: 'https://mediaresource.sfo2.digitaloceanspaces.com/wp-content/uploads/2024/04/20161105/shadcn-ui-logo-EF735EC0E5-seeklogo.com.png'}
       ],
       demoLink: "https://exhibition-curator-project.vercel.app",
       githubLink: "https://github.com/Mullah98/exhibition-curator-project"

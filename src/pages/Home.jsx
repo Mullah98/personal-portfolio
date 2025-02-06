@@ -3,7 +3,7 @@ import image from '../assets/personal-img.jpg'
 import '../styles/Home.css'
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import CV from '../assets/IbrahimUllah-CV.pdf';
+import CV from '../assets/Ibrahim-Ullah-CV.pdf';
 import TypeWriter from 'typewriter-effect';
 
 const Home = () => {
@@ -11,9 +11,9 @@ const Home = () => {
 
     const techStack = [
       {name: 'JavaScript', icon: 'https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png'},
+      {name: 'React', icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png'},
       {name: 'Next.js', icon: 'https://static-00.iconduck.com/assets.00/nextjs-icon-1024x1024-5et230l7.png'},
       {name: 'Tailwind CSS', icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2560px-Tailwind_CSS_Logo.svg.png'},
-      {name: 'React', icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png'},
       {name: 'Jest', icon: 'https://cdn.freebiesupply.com/logos/large/2x/jest-logo-png-transparent.png'},
     ]
   
@@ -25,7 +25,7 @@ const Home = () => {
         <img src={image} className='blob'></img>
       </div>
       <div className='btn-links'>
-        <a href={CV} download="IbrahimUllahCV.pdf"><button style={{whiteSpace: 'nowrap', fontSize: 13}}>Download CV</button></a>
+        <a href={CV} download="Ibrahim-Ullah-CV.pdf"><button style={{whiteSpace: 'nowrap', fontSize: 13}}>Download CV</button></a>
         <a href='https://github.com/Mullah98' target='_blank'><button><GitHubIcon style={{fontSize: 30}} /></button></a>
         <a href='https://www.linkedin.com/in/ibrahim-ullah-380972284' target='_blank'><button><LinkedInIcon style={{fontSize: 30}}/></button></a>
       </div>
