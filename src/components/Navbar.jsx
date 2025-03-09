@@ -1,15 +1,14 @@
 import React, { useEffect, useState } from 'react'
-import { Link, useLocation } from 'react-router-dom'
+import { Link as ScrollLink } from 'react-scroll'
 import '../styles/Navbar.css'
 import ReorderIcon from '@mui/icons-material/Reorder';
 
 const Navbar = () => {
-const { pathname } = useLocation();
 const [expandNavBar, setExpandNavBar] = useState(false)
 
-useEffect(() => {
-  setExpandNavBar(false)
-}, [pathname])
+// useEffect(() => {
+//   setExpandNavBar(false)
+// }, [pathname])
 
   return (
     <div className='navbar' id={expandNavBar ? 'open' : 'close'}>
@@ -19,11 +18,46 @@ useEffect(() => {
         </button>
       </div>
       <div className='links'>
-        <Link to='/' className={`item ${pathname === '/' ? 'active-link' : ''}`}>Home</Link>
-        <Link to='/skills' className={`item ${pathname === '/skills' ? 'active-link' : ''}`}>Tech Skills</Link>
-        <Link to='/projects' className={`item ${pathname === '/projects' ? 'active-link' : ''}`}>Projects</Link>
-        <Link to='/experience' className={`item ${pathname === '/experience' ? 'active-link' : ''}`}>Experience</Link>
-        <Link to='/contact' className={`item ${pathname === '/contact' ? 'active-link' : ''}`}>Contact me</Link>
+        <ScrollLink 
+          to="home" 
+          smooth={true} 
+          duration={500} 
+          className="item"
+          onClick={() => setExpandNavBar(false)}>
+          Home
+        </ScrollLink>
+        <ScrollLink 
+          to="skills" 
+          smooth={true} 
+          duration={500} 
+          className="item"
+          onClick={() => setExpandNavBar(false)}>
+          Tech Skills
+        </ScrollLink>
+        <ScrollLink 
+          to="projects" 
+          smooth={true} 
+          duration={500} 
+          className="item"
+          onClick={() => setExpandNavBar(false)}>
+          Projects
+        </ScrollLink>
+        <ScrollLink 
+          to="experience" 
+          smooth={true} 
+          duration={500} 
+          className="item"
+          onClick={() => setExpandNavBar(false)}>
+          Experience
+        </ScrollLink>
+        <ScrollLink 
+          to="contact" 
+          smooth={true} 
+          duration={500} 
+          className="item"
+          onClick={() => setExpandNavBar(false)}>
+          Contact me
+        </ScrollLink>
       </div>
     </div>
   )

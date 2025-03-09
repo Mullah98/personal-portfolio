@@ -4,7 +4,8 @@ $smallFont: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans 
 .timeline-container {
   position: relative;
   width: 100%;
-  padding: 20px 0;
+  min-height: 100vh;
+  padding: 75px 0;
 }
 
 .timeline {
@@ -32,11 +33,12 @@ $smallFont: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans 
 }
 
 .timeline-item.left {
-  left: 0;
+  left: -5vh;
 }
 
 .timeline-item.left2 {
   margin-top: -20vh;
+  left: -5vh;
 }
 
 .timeline-item.right {
@@ -100,6 +102,7 @@ p {
 
 li {
   margin-top: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 } 
 

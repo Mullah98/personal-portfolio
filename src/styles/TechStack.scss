@@ -3,6 +3,8 @@ $normalFont: 'Rubik', sans-serif;
 .skills-container {
     display: flex;
     justify-content: space-evenly;
+    min-height: 100vh;
+    padding: 100px 20px;
 }
 
 .category {

@@ -4,19 +4,20 @@ $darkGreyColor: #21262e;
 $normalFont: 'Rubik', sans-serif;
 
 @mixin flexEnd {
+    position: fixed;
+    top: 0;         
+    right: 0;
     width: 100%;
-    height: 100%;
-    max-width: 100%;
     display: flex;
     justify-content: flex-end;
-    padding: 0px;
-    align-self: center;
+
 }
 
 .navbar {
     @include flexEnd();
-    position: relative;
     z-index: 1000;
+    background-color: #e3e2e2;
+    padding: 10px 0;
 }
 
 .links {
@@ -35,15 +36,16 @@ $normalFont: 'Rubik', sans-serif;
     text-decoration: none;
 
     &:hover {
-        color: rgb(155, 152, 152);
+        color: red;
+        cursor: pointer;
+        text-decoration: underline;
     }
 
-    &:active,
-    &.active-link {
-        text-decoration: underline;
-        color: $redColor;
-        font-weight: bold;
-    }
+    // &:active,
+    // &.active-link {
+    //     color: $redColor;
+    //     font-weight: bold;
+    // }
 
     &:visited {
         color: $normalFont;

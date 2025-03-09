@@ -1,7 +1,8 @@
 .timeline-container {
   position: relative;
   width: 100%;
-  padding: 20px 0;
+  min-height: 100vh;
+  padding: 75px 0;
 }
 
 .timeline {
@@ -28,11 +29,12 @@
 }
 
 .timeline-item.left {
-  left: 0;
+  left: -5vh;
 }
 
 .timeline-item.left2 {
   margin-top: -20vh;
+  left: -5vh;
 }
 
 .timeline-item.right {
@@ -92,6 +94,7 @@
 }
 .timeline-content li {
   margin-top: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 @media only screen and (max-width: 600px) {
