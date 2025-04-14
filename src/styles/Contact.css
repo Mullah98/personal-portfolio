@@ -63,6 +63,25 @@
 .contact-container .form-container form button:hover {
   background-color: #555;
 }
+.contact-container .form-container form .scroll-top-btn {
+  position: absolute;
+  right: 2rem;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.contact-container .form-container form .scroll-top-btn:hover {
+  background-color: #555;
+  color: white;
+}
 .contact-container .form-container p {
   margin-top: 1rem;
   font-size: 18px;
@@ -83,6 +102,6 @@
 }
 @media only screen and (min-width: 2560px) {
   .contact-container {
-    margin: 200px 0;
+    margin: 500px 0;
   }
 }/*# sourceMappingURL=Contact.css.map */

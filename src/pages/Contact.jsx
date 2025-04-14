@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-scroll';
 import '../styles/Contact.css';
 
 const Contact = () => {
@@ -61,8 +62,18 @@ const Contact = () => {
 
           <label htmlFor="message">Message</label>
           <textarea name="message" id="message" rows="5" placeholder="Your Message" required></textarea>
-          
+        <div className='form-buttons'>
           <button type="submit" disabled={isSubmitting}>{buttonText}</button>
+          <Link
+            to="home"
+            smooth={true}
+            duration={500}
+            className="scroll-top-btn"
+            aria-label="Scroll to top"
+            >
+            ↑
+          </Link>
+        </div>
         </form>
         <p>
           Or email me directly at:{" "}
