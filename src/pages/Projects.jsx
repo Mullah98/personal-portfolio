@@ -69,7 +69,7 @@ const Projects = () => {
   return (
     <div className='project-container'>
       <div className='header'>
-        <h2>Some recent projects I have worked on...</h2>
+        <h2>Each project is a unique piece of development...</h2>
       </div>
       {projects.map((project, index) => (
         <div className='project' key={index}>

@@ -16,8 +16,18 @@ $normalFont: 'Rubik', sans-serif;
 .navbar {
     @include flexEnd();
     z-index: 1000;
-    background-color: #e3e2e2;
+    background-color: #ffffff;
     padding: 10px 0;
+}
+
+.navbar-left {
+    flex: 1;
+}
+
+.brand {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Rubik'
 }
 
 .links {
@@ -40,12 +50,6 @@ $normalFont: 'Rubik', sans-serif;
         cursor: pointer;
         text-decoration: underline;
     }
-
-    // &:active,
-    // &.active-link {
-    //     color: $redColor;
-    //     font-weight: bold;
-    // }
 
     &:visited {
         color: $normalFont;

@@ -6,12 +6,12 @@ import ReorderIcon from '@mui/icons-material/Reorder';
 const Navbar = () => {
 const [expandNavBar, setExpandNavBar] = useState(false)
 
-// useEffect(() => {
-//   setExpandNavBar(false)
-// }, [pathname])
 
   return (
     <div className='navbar' id={expandNavBar ? 'open' : 'close'}>
+      <div className='navbar-left'>
+        <span className='brand'>Ibrahim.dev</span>
+      </div>
       <div className='toggleButton'>
         <button onClick={()=> setExpandNavBar((prev) => !prev)}>
         <ReorderIcon style={{fontSize:50}}/> 

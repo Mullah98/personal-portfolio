@@ -7,7 +7,7 @@ import CV from '../assets/Ibrahim-Ullah-Resume.pdf';
 import TypeWriter from 'typewriter-effect';
 
 const Home = () => {
-    const titles = ['Software Developer', 'Frontend Engineer', 'Full Stack Engineer', 'JavaScript Developer', 'React Developer', 'Next.js Developer']
+    const titles = ['Software Developer', 'Frontend Developer', 'Full Stack Engineer', 'JavaScript Developer']
 
     const techStack = [
       {name: 'JavaScript', icon: 'https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png'},
