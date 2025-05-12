@@ -99,26 +99,6 @@
 
 @media only screen and (max-width: 600px) {
   .timeline-container {
-    margin-top: 10vh;
-  }
-  .timeline-content {
-    margin-right: 20px;
-  }
-  .timeline-item.left,
-  .timeline-item.left2 {
-    padding-left: 0px;
-  }
-  .timeline-item.left img,
-  .timeline-item.left2 img {
-    margin-left: -2vh;
-  }
-}
-@media only screen and (min-width: 2560px) {
-  .timeline-container {
-    margin-top: 10vh;
-  }
-  .timeline-item.right,
-  .timeline-item.left2 {
-    margin-top: 10vh;
+    display: none;
   }
 }/*# sourceMappingURL=TechExp.css.map */

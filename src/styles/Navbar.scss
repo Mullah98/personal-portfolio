@@ -78,32 +78,6 @@ $normalFont: 'Rubik', sans-serif;
     }
 }
 
-#open {
-    .navbar {
-        position: fixed;
-        width: 100%;
-        z-index: 100;
-    }
-    .links {
-        display: flex;
-        position: absolute;
-        flex-direction: column;
-        width: 100%;
-        height: 120vh;
-        background-color: $darkGreyColor;
-        z-index: 1000;
-        top: 0;
-        left: 0;
-    }
-    .item {
-        color: whitesmoke;
-
-        &:active,
-        &.active-link {
-            color: $redColor;
-        }
-    }
-}
 
 
 @media only screen and (min-width: 2560px) {

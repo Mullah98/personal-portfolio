@@ -50,11 +50,23 @@ $normalFont: 'Rubik', sans-serif;
 @media (max-width: 600px) {
     .skills-container {
         display: block;
+        padding: 40px;
     }
 
     .icon-grid {
+        display: flex;
+        flex-wrap: wrap;
         grid-template-columns: 1fr;
+        gap: 15px;
+        background-color: #f4f4f4;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
+
+    .icon-item {
+        margin-bottom: 10px;
+    }
+
 }
 
 @media only screen and (min-width: 2560px) {

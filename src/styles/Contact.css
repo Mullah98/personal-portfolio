@@ -98,6 +98,22 @@
 @media (max-width: 768px) {
   .contact-container {
     display: block;
+    padding: 20px 10px;
+  }
+  .contact-container .main-container h2 {
+    font-size: 44px;
+  }
+  .contact-container .main-container h3 {
+    font-size: 20px;
+  }
+  .form-buttons {
+    display: block;
+    margin-right: 0px;
+    position: relative;
+  }
+  .scroll-top-btn {
+    margin-top: 22px;
+    bottom: 0px;
   }
 }
 @media only screen and (min-width: 2560px) {
