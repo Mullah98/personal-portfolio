@@ -3,7 +3,7 @@ import image from '../assets/personal-img.jpg'
 import '../styles/Home.css'
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import CV from '../assets/Ibrahim-Ullah-Resume.pdf';
+import CV from '../assets/Ibrahim Ullah-CV.pdf';
 import TypeWriter from 'typewriter-effect';
 
 const Home = () => {
