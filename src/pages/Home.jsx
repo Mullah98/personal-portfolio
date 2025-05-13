@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import image from '../assets/personal-img.jpg'
 import '../styles/Home.css'
 import GitHubIcon from "@mui/icons-material/GitHub";

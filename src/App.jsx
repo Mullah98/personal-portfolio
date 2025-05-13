@@ -10,15 +10,14 @@ import Navbar from './components/Navbar.jsx'
 const App = () => {
   return (
     <div className='App'>
-    <Navbar />
-    <div className='sections'>
-    <section id='home'><Home /></section>
-    <section id='skills'><TechStack /></section>
-    <section id='projects'><Projects /></section>
-    <section id='experience'><TechExp /></section>
-    <section id='contact'><Contact /></section>
-
-    </div>
+      <Navbar />
+      <div className='sections'>
+        <section id='home'><Home /></section>
+        <section id='skills'><TechStack /></section>
+        <section id='projects'><Projects /></section>
+        <section id='experience'><TechExp /></section>
+        <section id='contact'><Contact /></section>
+      </div>
     </div>
   )
 }

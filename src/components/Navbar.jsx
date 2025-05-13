@@ -1,11 +1,8 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import { Link as ScrollLink } from 'react-scroll'
 import '../styles/Navbar.css'
-import ReorderIcon from '@mui/icons-material/Reorder';
 
 const Navbar = () => {
-// const [expandNavBar, setExpandNavBar] = useState(false)
-
 
   return (
     <div className='navbar'>
