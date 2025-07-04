@@ -14,7 +14,7 @@ const Projects = () => {
       description: "An exhibition curator project built with Next.js and Tailwind CSS. Users can view and select artworks integrated with the Harvard and Met Museum APIs. As my role as a freelance project consultant, I helped design and implement the core features, ensuring an intuitive user experience. The platform also allows users to create and manage exhibitions, offering a seamless experience for exploring art from various collections.",
       techStack: [
         {name: 'React', icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png'},
-        {name: 'Next.js', icon: 'https://static-00.iconduck.com/assets.00/nextjs-icon-1024x1024-5et230l7.png'},
+        {name: 'Next.js', icon: 'https://assets.streamlinehq.com/image/private/w_240,h_240,ar_1/f_auto/v1/icons/development/next.js-bcrxradqwfjv7t2di6c96.png/next.js-tkpt01eo0tpocevvyxrsc.png?_a=DATAdtAAZAA0'},
         {name: 'Tailwind CSS', icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2560px-Tailwind_CSS_Logo.svg.png'},
         {name: 'Shadcn/UI', icon: 'https://mediaresource.sfo2.digitaloceanspaces.com/wp-content/uploads/2024/04/20161105/shadcn-ui-logo-EF735EC0E5-seeklogo.com.png'}
       ],
@@ -27,7 +27,7 @@ const Projects = () => {
       description: "A football data app built with Next.js. View the latest league standings, fixtures, and more with data provided by API-Football. My passion for football inspired me to build this app, as I thought it would be cool to create a platform where fans can stay up to date with their favorite teams. The app features a user-friendly interface to track team performance and match schedules.",
       techStack: [
         {name: 'React', icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png'},
-        {name: 'Next.js', icon: 'https://static-00.iconduck.com/assets.00/nextjs-icon-1024x1024-5et230l7.png'},
+        {name: 'Next.js', icon: 'https://assets.streamlinehq.com/image/private/w_240,h_240,ar_1/f_auto/v1/icons/development/next.js-bcrxradqwfjv7t2di6c96.png/next.js-tkpt01eo0tpocevvyxrsc.png?_a=DATAdtAAZAA0'},
       ],
       demoLink: "https://www.youtube.com/watch?v=vH9TijMc_jo",
       githubLink: "https://github.com/Mullah98/My-Footy-App"
