@@ -4,7 +4,8 @@ import '../styles/TechStack.css'
 const TechStack = () => {
   const frontend = [
     {name: 'Javascript', icon: 'https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png'},
-    {name: 'Next.js', icon: 'https://static-00.iconduck.com/assets.00/nextjs-icon-1024x1024-5et230l7.png'},
+    {name: 'TypeScript', icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png'},
+    {name: 'Next.js', icon: 'https://assets.streamlinehq.com/image/private/w_240,h_240,ar_1/f_auto/v1/icons/development/next.js-bcrxradqwfjv7t2di6c96.png/next.js-tkpt01eo0tpocevvyxrsc.png?_a=DATAdtAAZAA0'},
     {name: 'React', icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png'},
     {name: 'Tailwind CSS', icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2560px-Tailwind_CSS_Logo.svg.png'},
     {name: 'Vue JS', icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1200px-Vue.js_Logo_2.svg.png'},
@@ -14,7 +15,7 @@ const TechStack = () => {
 
   const backend = [
     {name: 'PostgreSQL', icon: 'https://download.logo.wine/logo/PostgreSQL/PostgreSQL-Logo.wine.png'},
-    {name: 'Node.js', icon: 'https://www.svgrepo.com/download/303360/nodejs-logo.svg'},
+    {name: 'Node.js', icon: 'https://www.svgrepo.com/show/303360/nodejs-logo.svg'},
     {name: 'Express', icon: 'https://seeklogo.com/images/E/express-js-logo-FA36FF1D3F-seeklogo.com.png'},
   ]
 

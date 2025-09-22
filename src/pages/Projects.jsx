@@ -1,13 +1,27 @@
-import React from 'react';
 import '../styles/Projects.css';
 import travelogProject from '../assets/travelog-project.png';
 import portfolioProject from '../assets/portfolio.png';
 import carRentalProject from '../assets/car-rental.png';
 import myFootAppProject from '../assets/footy-app.png';
 import exhibitionProject from '../assets/exhibit-ease.png'
+import debtMatesProject from '../assets/debt-mates.png';
 
 const Projects = () => {
   const projects = [
+    {
+      name: 'DebtMates',
+      image: debtMatesProject,
+      description: "DebtMates is a SaaS-style app, created with TypeScript, Tailwind CSS, and Supabase. Users can keep track of their debts, create and assign debts to other users, and confirm or deny payments. Extra features include personal friends list, and uploading user profile image.",
+      techStack: [
+        {name: 'React', icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png'},
+        {name: 'TypeScript', icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png'},
+        {name: 'Supabase', icon: 'https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/supabase.png'},
+        {name: 'Tailwind CSS', icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2560px-Tailwind_CSS_Logo.svg.png'},
+        {name: 'Shadcn/UI', icon: 'https://mediaresource.sfo2.digitaloceanspaces.com/wp-content/uploads/2024/04/20161105/shadcn-ui-logo-EF735EC0E5-seeklogo.com.png'}
+      ],
+      demoLink: "https://debt-mates.vercel.app/",
+      githubLink: "https://github.com/Mullah98/DebtMates"
+    },
     {
       name: 'Exhibit Ease',
       image: exhibitionProject,
